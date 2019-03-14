@@ -1,0 +1,44 @@
+{
+  "name": "redshift-js",
+  "version": "1.0.0",
+  "description": "Typescript Library for doing some redshift specific tasks",
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankfarrell/redshift-js.git"
+  },
+  "keywords": [
+    "redshift"
+  ],
+  "author": "frankfarrell",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankfarrell/redshift-js/issues"
+  },
+  "homepage": "https://github.com/frankfarrell/redshift-js#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.11",
+    "jest": "^24.5.0",
+    "ts-jest": "^24.0.0",
+    "typescript": "^3.3.3333"
+  },
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib"
+  ],
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$"
+  }
+}
